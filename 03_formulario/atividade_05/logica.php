@@ -1,7 +1,8 @@
 <?php
 $nome = $_POST['nome_completo'];
-$peso = $_POST['peso'];
-$altura = $_POST['altura'];
+$tipo_de_ingresso = $_POST['tipo_de_ingresso'];
+$data_do_evento$_POST['data_do_evento'];
+$hora_de_chegada$_POST['hora_de_chegada']
 
 $altura = $altura * 100;
 
