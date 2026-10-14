@@ -36,10 +36,10 @@ class Produto
     }
 }
 
-$produto = new Produto("Notebook", 2500, 10);
+$produto = new Produto("Notebook", 250, 10);
 $produto->exibirInfo();
 echo "<br>";
-$produto->vender(3);
+$produto->vender(2);
 echo "<br>";
 $produto->reajustarPreco(10);
 echo "<br>";
