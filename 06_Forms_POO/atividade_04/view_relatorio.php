@@ -13,6 +13,7 @@
 
     <h3>Composição da Mensalidade</h3>
     <table widthborder="1" >
+
         <thead>
             <tr>
                 <th>Item</th>
@@ -47,7 +48,7 @@
     <p><?php if ($matricula->calcularPercentualDesconto() > 0): ?>
             Parabéns! Você ganhou <?= $matricula->calcularPercentualDesconto() ?>% de desconto.
         <?php else: ?>
-            Dica: Fechando 6 meses ou mais você ganha desconto.
+           Dica: Fechando 6 meses ou mais você ganha desconto.
         <?php endif; ?> </p>
     <br>
 </body>

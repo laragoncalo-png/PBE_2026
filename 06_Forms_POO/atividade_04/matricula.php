@@ -1,7 +1,7 @@
 <?php
 
 class Matricula {
-    private Aluno $aluno;
+    private $aluno;
     private $plano;
     private $meses;
     private $modalidades;
