@@ -9,10 +9,8 @@ $altura = $_POST['altura'];
 $plano = $_POST['plano'];
 $meses = $_POST['meses'];
 
-$modalidades = [];
-if (isset($_POST["modalidades"]) && is_array($_POST["modalidades"])) {
-    $modalidades = $_POST["modalidades"];
-}
+$modalidades = $_POST["modalidades"] ?? [];
+/* ?? vai verificar se uma variável existe e se ela não existir ele utiliza um valor padrão no lugar que é o [] */
 
 $aluno = new Aluno($nome, $peso, $altura);
 
